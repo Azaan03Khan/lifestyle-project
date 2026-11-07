@@ -111,3 +111,18 @@ footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);f
   .entry{grid-template-columns:1fr;gap:4px}
   nav.top .links a{padding:5px 8px;font-size:.82rem}
 }
+
+/* illustrative thumbnails */
+figure.thumb{float:right;width:260px;margin:0 0 14px 22px;background:var(--bg)}
+figure.thumb img,figure.top img,figure.banner img,figure.inline img{height:auto;object-fit:cover;background:none}
+figure.thumb img{height:170px}
+figure.top{margin:-28px -28px 18px;border-radius:18px 18px 0 0;background:var(--bg)}
+figure.top img{height:150px}
+figure.banner{margin:-28px -28px 20px;border-radius:18px 18px 0 0}
+figure.banner img{height:190px;object-position:center 40%}
+figure.inline{max-width:420px;margin:6px 0 10px}
+figure.inline img{height:180px}
+figure.thumb figcaption,figure.top figcaption,figure.banner figcaption,figure.inline figcaption{font-size:.72rem;padding:6px 10px}
+.habit.elec,.habit.car{overflow:hidden}
+@media (max-width:720px){figure.thumb{float:none;width:auto;margin:0 0 14px}figure.top,figure.banner{margin:-20px -20px 16px}}
+figure.top img{object-position:center 80%}
